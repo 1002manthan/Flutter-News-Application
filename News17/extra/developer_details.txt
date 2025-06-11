@@ -1,0 +1,317 @@
+Padding(
+        padding: EdgeInsets.all(8),
+        child: SizedBox(
+          height: double.infinity,
+          width: double.infinity,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              SizedBox(
+                height: 4,
+              ),
+              Text(
+                "Details About Developer",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 12,
+              ),
+              Icon(
+                Icons.account_circle_rounded,
+                size: 68,
+              ),
+              SizedBox(
+                height: 12,
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  color: Colors.blueGrey,
+                ),
+                  child: Column(
+                    children: [
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.only(top: 12, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              children: [
+                                Column(
+                                  children: [
+                                    Text(
+                                      "Developer",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 10.0, left: 35),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                ),
+                                Column(
+                                  children: [
+                                    Text(
+                                      "Manthan Suthar ",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    )
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            height: 2,
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              children: [
+                                Column(
+                                  children: [
+                                    Text(
+                                      "Study (Aug/24)",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.black,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 10, left: 2),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 20),
+                                  ),
+                                ),
+                                Column(
+                                  children: [
+                                    Text(
+                                      "CE (Diploma, Sem 5)",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            height: 2,
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                      width: 110,
+                                      child: Flexible(
+                                        child: Text(
+                                          "Description by developer : ",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 12.0),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 25),
+                                  ),
+                                ),
+                                Flexible(
+                                  child: Column(
+                                    children: [
+                                      Text(
+                                        "This Application is Outcome of the internship I did in 5th semester of CE (Diploma).",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            height: 2,
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                      width: 110,
+                                      child: Flexible(
+                                        child: Text(
+                                          "Internship duration : ",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 12.0),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 25),
+                                  ),
+                                ),
+                                Flexible(
+                                  child: Column(
+                                    children: [
+                                      Text(
+                                        "6 Weeks (27-June-2024 to 07-August-2024)",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            height: 2,
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                      width: 110,
+                                      child: Flexible(
+                                        child: Text(
+                                          "Company of Internship",
+                                          style: TextStyle(
+                                            fontSize: 15,
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 12.0),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 25),
+                                  ),
+                                ),
+                                Flexible(
+                                  child: Column(
+                                    children: [
+                                      Text(
+                                        "Infolabz IT Services Pvt. LTd.",
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Divider(
+                            height: 2,
+                            color: Colors.black,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 6, bottom: 6, left: 12, right: 12),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                      width: 110,
+                                      child: Flexible(
+                                          child: Text(
+                                        "Information about internship",
+                                        style: TextStyle(
+                                            fontSize: 15,
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
+                                    )
+                                  ],
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(right: 12.0),
+                                  child: Text(
+                                    ":",
+                                    style: TextStyle(fontSize: 25),
+                                  ),
+                                ),
+                                Flexible(
+                                  child: Text(
+                                    "Flutter (Cross-platform application development language), Dart (Fully object-oriented programming language)",
+                                    style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ],
+                  ))
+            ],
+          ),
+        ),
+      ),
